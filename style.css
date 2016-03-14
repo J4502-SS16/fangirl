@@ -2,8 +2,15 @@ a:link { text-decoration: none; color : #46085d;};
 a:active { text-decoration: underline; color : #46085d;};
 a:visited { text-decoration: none; color : #000000;};
 
+<<<<<<< Updated upstream
 .hedstory {
 	position: relative;
+=======
+
+.hedstory {
+	position: relative;
+	/*width: 21%;*/
+>>>>>>> Stashed changes
 	font-family: 'Roboto', sans-serif;
 	font-weight: 900;
 	font-style: bold;
@@ -17,11 +24,18 @@ ul {
 }
 
 li {
+<<<<<<< Updated upstream
 	font-color: #46085d;
 	font-style: bold;
 	float: left;
 	list-style-type: none;
 	font-family: 'Vectora', sans-serif;
+=======
+	color: #46085d;
+	float: left;
+	list-style-type: none;
+	font-family: 'Roboto', sans-serif;
+>>>>>>> Stashed changes
 	display: block;
 	font-size: 25px;
 	text-align: center;
@@ -45,3 +59,21 @@ li {
 	vertical-align: center
 
 }
+
+.section{
+	float: right;
+	text-align: right;
+	font-size: 95px;
+	font-family: Arial;
+	font-style: bold;
+}
+
+.stories{
+	vertical-align: center
+
+}
+
+/*Allison added these, they probably aren't totally correct*/
+.container {width: 800px; margin: 0 auto;}
+.main {width: 500px; float: left;}
+.sidebar {width: 300px; float: right;}
