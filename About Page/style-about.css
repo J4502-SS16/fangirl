@@ -2,15 +2,15 @@ a:link { text-decoration: none; color : #46085d;}
 a:active { text-decoration: underline; color : #46085d;}
 a:visited { text-decoration: none; color : #000000;}
 
-/*p {
-	/*position: relative;*/
+p {
+	position: relative;
 	/*width: 21%;*/
-	font-family: 'Roboto', sans-serif;
-	font-weight: 400;
-	/*font-style: bold;*/
-/*}
+	font-family: 'Martel', sans-serif;
+	/*font-weight: 400;
+	font-style: bold;*/
+}
 
-ul {
+/*ul {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
@@ -29,7 +29,7 @@ li {
 	padding: 25px;
 	text-decoration: none;
 
-}*/*/
+}*/
 
 /*a:hover:not(.active) {
 }*/
