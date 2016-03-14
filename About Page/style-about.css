@@ -47,8 +47,8 @@ li {
 }*/
 
 .section{
-	float: right;
-	text-align: right;
+	/*float: left;*/
+	text-align: left;
 	font-size: 95px;
 	font-family: Arial;
 	font-style: bold;
@@ -140,7 +140,7 @@ li {
 
 .section {
 	float: right;
-	text-align: right;
+	/*text-align: right;*/
 	font-size: 95px;
 	font-family: Arial;
 	font-style: bold;
@@ -215,9 +215,9 @@ a:hover:not(.active) {
 }
 
 .row1 {
-	height: 200px;
-  width: 500px;
-	float: left;
+	/*height: 200px;
+  width: 500px;*/
+	/*float: left;*/
 }
 
 #sidebar {
