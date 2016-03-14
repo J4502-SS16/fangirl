@@ -1,13 +1,13 @@
-a:link { text-decoration: none; color : #46085d;};
-a:active { text-decoration: underline; color : #46085d;};
-a:visited { text-decoration: none; color : #000000;};
+a:link { text-decoration: none; color : #46085d;}
+a:active { text-decoration: underline; color : #46085d;}
+a:visited { text-decoration: none; color : #000000;}
 
-.hedstory {
-	position: relative;
+p {
+	/*position: relative;*/
 	/*width: 21%;*/
 	font-family: 'Roboto', sans-serif;
-	font-weight: 900;
-	font-style: bold;
+	font-weight: 400;
+	/*font-style: bold;*/
 }
 
 ul {
