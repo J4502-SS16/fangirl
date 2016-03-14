@@ -100,16 +100,17 @@ h3 {
 	padding-top: 0px;
 	font-family: 'Roboto';
 	font-weight: 500;
+	font-size: 1.5m
 	margin-bottom: 1px;
 	margin-top: 1px;
 	color: #505050;
 }
-/*Allison changed font size from 12 to 14*/
+
 p {
 	padding-top: 0px;
 	padding-bottom: 2px;
-	font-family: 'Martel';
-	font-size: 14px;
+	font-family: 'Martel', serif;
+	font-size: 1m;
 	margin-bottom: 12px;
 	margin-top: 1px;
 }
@@ -139,7 +140,7 @@ li {
 }*/
 
 .section {
-	float: right;
+	float: left;
 	text-align: right;
 	font-size: 95px;
 	font-family: Arial;
@@ -153,4 +154,14 @@ li {
 }
 .sidebar{
 	height: 20%;
+}
+
+.main-photo {
+	width: 95%
+	height: auto;
+}
+
+.sub-photo {
+	width: 75%;
+	height:auto;
 }
