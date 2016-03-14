@@ -41,12 +41,25 @@ li {
 	text-align: center;
 	padding: 25px;
 	text-decoration: none;
-	
+
 }
 
 /*a:hover:not(.active) {
 }*/
 
+/*.section{
+	float: right;
+	text-align: right;
+	font-size: 95px;
+	font-family: Arial;
+	font-style: bold;
+}
+
+.stories{
+	vertical-align: center*/
+
+}
+
 .section{
 	float: right;
 	text-align: right;
@@ -59,21 +72,3 @@ li {
 	vertical-align: center
 
 }
-
-.section{
-	float: right;
-	text-align: right;
-	font-size: 95px;
-	font-family: Arial;
-	font-style: bold;
-}
-
-.stories{
-	vertical-align: center
-
-}
-
-/*Allison added these, they probably aren't totally correct*/
-.container {width: 800px; margin: 0 auto;}
-.main {width: 500px; float: left;}
-.sidebar {width: 300px; float: right;}
