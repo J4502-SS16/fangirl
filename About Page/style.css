@@ -67,8 +67,9 @@ a:visited { text-decoration: none; color : #000000;};
 	font-family: 'Roboto', sans-serif;
 	font-weight: 900;
 	font-style: bold;
-}
 
+
+}
 .icon{
 	width: 15%;
 	height: 80px;
@@ -99,17 +100,16 @@ h3 {
 	padding-top: 0px;
 	font-family: 'Roboto';
 	font-weight: 500;
-	font-size: 1.5m
 	margin-bottom: 1px;
 	margin-top: 1px;
 	color: #505050;
 }
-
+/*Allison changed font size from 12 to 14*/
 p {
 	padding-top: 0px;
 	padding-bottom: 2px;
-	font-family: 'Martel', serif;
-	font-size: 1m;
+	font-family: 'Martel';
+	font-size: 14px;
 	margin-bottom: 12px;
 	margin-top: 1px;
 }
@@ -139,7 +139,7 @@ li {
 }*/
 
 .section {
-	float: left;
+	float: right;
 	text-align: right;
 	font-size: 95px;
 	font-family: Arial;
@@ -153,13 +153,4 @@ li {
 }
 .sidebar{
 	height: 20%;
-}
-
-.main-photo {
-	width: 95%
-}
-
-.sub-photo {
-	width: 75%;
-	height:auto;
 }
