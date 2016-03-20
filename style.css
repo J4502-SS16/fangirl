@@ -1,11 +1,173 @@
+a:link { text-decoration: none; color : #46085d;}
+a:active { text-decoration: underline; color : #46085d;}
+a:visited { text-decoration: none; color : #000000;}
+
+/*p {
+	/*position: relative;*/
+	/*width: 21%;*/
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	/*font-style: bold;*/
+/*}
+
+ul {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #dcddde*/
+/*}
+
+li {
+	font-color: #46085d;
+	font-style: bold;
+	float: left;
+	list-style-type: none;
+	font-family: 'Vectora', sans-serif;
+	display: block;
+	font-size: 25px;
+	text-align: center;
+	padding: 25px;
+	text-decoration: none;
+
+}*/*/
+
+/*a:hover:not(.active) {
+}*/
+
+/*.section{
+	float: right;
+	text-align: right;
+	font-size: 95px;
+	font-family: Arial;
+	font-style: bold;
+}
+
+.stories{
+	vertical-align: center
+}*/
+
+.section{
+	float: right;
+	text-align: right;
+	font-size: 95px;
+	font-family: Arial;
+	font-style: bold;
+}
+
+.stories{
+	vertical-align: center
+
+}
+a:link { text-decoration: none; color : #46085d;};
+a:active { text-decoration: underline; color : #46085d;};
+a:visited { text-decoration: none; color : #000000;};
+
+.hedstory {
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-style: bold;
+}
+
+.icon{
+	width: 15%;
+	height: 80px;
+}
+
+.title {
+	width: 80%;
+}
+
+.sectionid {
+	width: 97%;
+
+}
+
+.topstory {
+	width: 100%;
+}
+
+h1 {
+	position: relative;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-style: bold;
+	color: #46085d;
+}
+h3 {
+	padding-bottom: 0px;
+	padding-top: 0px;
+	font-family: 'Roboto';
+	font-weight: 500;
+	font-size: 1.5m
+	margin-bottom: 1px;
+	margin-top: 1px;
+	color: #505050;
+}
+
+p {
+	padding-top: 0px;
+	padding-bottom: 2px;
+	font-family: 'Martel', serif;
+	font-size: 1m;
+	margin-bottom: 12px;
+	margin-top: 1px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #dcddde;
+}
+
+li {
+	font-color: #46085d;
+	font-family: 'Roboto', sans-serif;
+	font-style: bold;
+	float: left;
+	list-style-type: none;
+	display: block;
+	font-size: 25px;
+	text-align: center;
+	padding: 25px;
+	text-decoration: none;
+
+}
+
+/*a:hover:not(.active) {
+}*/
+
+.section {
+	float: left;
+	text-align: right;
+	font-size: 95px;
+	font-family: Arial;
+	font-style: bold;
+}
+
+.stories {
+	/*vertical-align: center*/
+	width: 100%;
+
+}
+.sidebar{
+	height: 20%;
+}
+
+.main-photo {
+	width: 95%
+}
+
+.sub-photo {
+	width: 75%;
+	height:auto;
+}
+/*HEATHER'S CODE*/
 img {
   max-width: 100%;
   height: auto;
   padding-bottom: 5px;
-}
-
-a {
-  color: #46085d;
 }
 
 /*Strip the ul of padding and list styling*/
@@ -30,7 +192,7 @@ li a {
 	height: 50px;
 	text-align: center;
 	line-height: 50px;
-	font-family: 'Roboto', Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	color: #46085d;
 	background: #dcddde;
 	text-decoration: none;
@@ -81,7 +243,7 @@ ul li a:hover + .hidden, .hidden:hover {
 
 /*Style 'show menu' label button and hide it by default*/
 .show-menu {
-	font-family: 'Roboto', Helvetica, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-decoration: none;
 	color: #fff;
 	background: #46085d;
@@ -138,7 +300,7 @@ h2 {
 
 h2 span {
    color: #fff;
-   font: 16px/25px 'Roboto', Helvetica, sans-serif;
+   font: 16px/25px 'Roboto', sans-serif;
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
    padding: 10px;
@@ -152,7 +314,7 @@ h2 span {
 
 h1 {
   color: #46085d;
-  font: 24px 'Roboto', Helvetica, sans-serif;
+  font: 24px 'Roboto', sans-serif;
   margin: 0;
   padding-bottom: 10px;
 }
@@ -165,7 +327,7 @@ h1 {
 
 h3 {
   color: #46085d;
-  font: 16px 'Roboto', Helvetica, sans-serif;
+  font: 16px 'Roboto', sans-serif;
   margin: 2px 0;
 }
 
@@ -194,7 +356,7 @@ hr {
 
 h4 {
   color: #000;
-  font: 15px 'Roboto', Helvetica, sans-serif;
+  font: 15px 'Roboto', sans-serif;
   text-align: center;
   margin: 2px 0;
 }

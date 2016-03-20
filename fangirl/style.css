@@ -214,3 +214,11 @@ hr {
   margin: 2px 0;
   text-align: center;
 }
+.main-photo {
+	width: 95%
+}
+
+.sub-photo {
+	width: 75%;
+	height:auto;
+}
