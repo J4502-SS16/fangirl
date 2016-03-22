@@ -131,7 +131,7 @@ input[type=checkbox]:checked ~ #menu{
 
 h2 {
    position: absolute;
-   top: 150px;
+   top: 30%;
    left: 0;
    width: 100%;
 }
