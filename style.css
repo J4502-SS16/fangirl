@@ -244,14 +244,16 @@ ul li a:hover + .hidden, .hidden:hover {
 
 /*Style 'show menu' label button and hide it by default*/
 .show-menu {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-end;
 	font-family: 'Roboto', sans-serif;
 	text-decoration: none;
 	color: #fff;
 	background: #46085d;
 	text-align: center;
 	padding: 10px 0;
-  margin-bottom: 10px;
-	display: none;
+  margin-bottom: 10px
 }
 
 /*Hide checkbox*/
@@ -281,10 +283,13 @@ input[type=checkbox]:checked ~ #menu{
 		width: 100%;
 	}
 	/*Display 'show menu' link*/
-	.show-menu {
-		display:block;
-	}
-}
+	/*.show-menu {
+		/*added flex styles*/
+			/*display: flex;
+		  flex-flow: row wrap;*/
+		  /* This aligns items to the end line on main-axis */
+		  /*justify-content: flex-end;
+	}*/*/
 
 .image-text {
    position: relative;

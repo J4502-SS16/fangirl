@@ -120,7 +120,11 @@ input[type=checkbox]:checked ~ #menu{
 	}
 	/*Display 'show menu' link*/
 	.show-menu {
-		display:block;
+    display: flex;
+flex-flow: row wrap;
+    flex: 100%;
+  /* This aligns items to the end line on main-axis */
+  justify-content: center;
 	}
 }
 
