@@ -21,6 +21,7 @@ nav ul li {
 nav a {
     color: #46085d;
     display: block;
+    width: auto;
     text-decoration: none;
     padding: 20px 30px;
 }
@@ -36,14 +37,13 @@ header {
 .menu-trigger {
     order: 1;
     font-size: 1.75em;
-    width: 2em;
 }
 
 nav ul {
     display: none;
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 1100px){
 
     nav ul {
         display: flex;
@@ -55,6 +55,10 @@ nav ul {
 
     .menu-trigger {
         display: none;
+    }
+
+    .hidden {
+      display: none;
     }
 
     header h1 {
