@@ -148,7 +148,7 @@ hr {
 }
 
 hr {
-  size: 1pt;
+  size: 1px;
   color: #dcddde;
 }
 
@@ -168,6 +168,7 @@ hr {
 	height: auto;
     padding: .5em;
 }
+
 
 @media screen and (min-width: 800px) {
         p {
