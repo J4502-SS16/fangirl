@@ -151,7 +151,7 @@ h4 {
 .byline-date {
   color: #000;
   font: italic 12px 'Martel', serif;
-  margin: 2px 0;
+  margin-top: .5em;
 }
 
 
@@ -178,10 +178,15 @@ hr {
 
 
 .main-photo {
-	width: 95%
+	width: 95%;
+  padding-left: .75em;
+  padding-right: .5em;
+  padding-top: .5em;
+
 }
 
 .sub-photo {
 	width: 75%;
 	height:auto;
+  padding: .5em;
 }
