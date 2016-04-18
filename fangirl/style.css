@@ -15,7 +15,7 @@ nav {
 
 nav ul li {
     display: block;
-    border-top: 1px #46085d solid;
+    /*border-top: 1px #46085d solid;*/
 }
 
 nav a {
