@@ -159,7 +159,7 @@ h2 span {
   margin: 0 auto;*/
   width: 100%;
    color: #fff;
-   font: 2em 'Roboto', Helvetica, sans-serif;
+   font: 1em 'Roboto', Helvetica, sans-serif;
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
 }
@@ -245,7 +245,7 @@ hr {
   margin: 0 auto;*/
   /*width: 100%;*/
   color: #46085d;
-  font: 16px 'Roboto', Helvetica, sans-serif;
+  font: 1.5em 'Roboto', Helvetica, sans-serif;
 }
 
 .main-photo {
@@ -270,8 +270,6 @@ hr {
 
 /***************ENTERING THE MEDIA QUERY ZONE!!!!!!!!!!!!!!!!!!!!!*********/
 /***************ENTERING THE MEDIA QUERY ZONE!!!!!!!!!!!!!!!!!!!!!*********/
-
-
 @media screen and (min-width: 1100px){
 
   .main{
@@ -291,7 +289,7 @@ hr {
       /*margin: 0 auto;*/
   }
   h2 span {
-    font: 3em
+    font: 1em
     display: flex;
     margin: 0 auto;
     width: 80%;
@@ -301,11 +299,11 @@ hr {
     margin: 0 auto;*/
     /*width: 100%;*/
     color: #46085d;
-    font: 3em 'Roboto', Helvetica, sans-serif;
+    font: 1em 'Roboto', Helvetica, sans-serif;
   }
 
   h2 {
-      font: 3.5em 'Roboto', Helvetica, sans-serif;
+      font: 2em 'Roboto', Helvetica, sans-serif;
       width: 80%;
       /*margin: 0 auto;*/
   }
