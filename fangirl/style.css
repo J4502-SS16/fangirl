@@ -169,7 +169,7 @@ h4 {
 
 .byline-date {
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
   color: #000;
   font: italic 12px 'Martel', serif;
   margin-top: .5em;
@@ -194,8 +194,6 @@ hr {
   size: 1px;
   color: #dcddde;
 }
-
-
 
 .list-photo {
   display: flex;
@@ -258,10 +256,6 @@ hr {
             width: 80%;
             margin: 0 auto;
         }
-        .byline-date {
-            width: 80%;
-            margin: 0 auto;
-        }
 
         p {
             width: 80%;
@@ -274,6 +268,12 @@ hr {
           color: #000;
           font: italic 12px 'Martel', serif;
           margin-top: .5em;
+        }
+
+        .deck {
+          width: 80%;
+          color: #000;
+          font: 12px 'Martel', serif;
         }
 
         .story-list {
