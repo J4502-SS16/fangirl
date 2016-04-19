@@ -141,7 +141,7 @@ h1 {
   /*display: flex;
   margin: 0 auto;*/
   color: #46085d;
-  font: 2.8em 'Roboto', Helvetica, sans-serif;
+  font: 3.5em 'Roboto', Helvetica, sans-serif;
   padding-bottom: .2em;
   width: 80%
 }
@@ -168,7 +168,7 @@ h3 {
 
   width: 80%;
   color: #46085d;
-  font: 16px 'Roboto', Helvetica, sans-serif;
+  font: 1.3em 'Roboto', Helvetica, sans-serif;
 
 }
 
@@ -200,7 +200,7 @@ h4 {
   margin: 0 auto;
   width: 100%;
   color: #000;
-  font: italic 12px 'Martel', serif;
+  font: italic 1em 'Martel', serif;
   margin-top: .5em;
 }
 
@@ -313,6 +313,13 @@ hr {
     /*margin: 0 auto;*/
     }
 
+    .story-byline {
+      margin: 0 auto;
+      width: 100%;
+      color: #000;
+      font: italic 1 'Martel', serif;
+      margin-top: .5em;
+    }
     p {
       font: 1em;
         width: 80%;
