@@ -1,9 +1,8 @@
-/*img {
+.logo {
   max-width: 100%;
   height: auto;
   padding-bottom: 5px;
-}*/
-
+}
 a {
   color: #46085d;
 }
@@ -196,11 +195,10 @@ hr {
   color: #dcddde;
 }
 
-<<<<<<< HEAD
 .list-photo {
   display: flex;
   margin: 0 auto;
-  width: 70%
+  width: 100%
 }
 
 .story-list {
@@ -210,8 +208,6 @@ hr {
   color: #46085d;
   font: 16px 'Roboto', Helvetica, sans-serif;
 }
-=======
->>>>>>> origin/gh-pages
 
 .main-photo {
   display: flex;
@@ -219,12 +215,12 @@ hr {
   margin: 0 auto;
   padding: .5em;
 
-
 }
 
 .sidebar{
   float: right;
 }
+
 .sub-photo {
     display: flex;
 	   width: 70%;
@@ -247,27 +243,26 @@ hr {
             width: 80%;
             margin: 0 auto;
         }
+
         h2 {
             width: 80%;
             margin: 0 auto;
         }
+
         h3 {
             width: 80%;
             margin: 0 auto;
         }
-<<<<<<< HEAD
 
-=======
         .byline-date {
             width: 80%;
             margin: 0 auto;
         }
->>>>>>> origin/gh-pages
+
         p {
             width: 80%;
             margin: 0 auto;
         }
-<<<<<<< HEAD
 
         .byline-date {
           margin: 0 auto;
@@ -291,8 +286,6 @@ hr {
           font: 16px 'Roboto', Helvetica, sans-serif;
         }
 
-=======
->>>>>>> origin/gh-pages
         .main-photo {
             width: 80%;
             margin: 0 auto;
@@ -345,5 +338,7 @@ hr {
     nav {
         order: 2;
     }
-
+    .list-photo {
+      width: 50%
+    }
 }
