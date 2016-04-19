@@ -300,10 +300,12 @@ hr {
 
   .main{
     width: 65%;
+    float: left; 
   }
 
 .sidebar{
   width: 20%;
+  float: right;
 }
   h1 {
       font: 3.5em 'Roboto', Helvetica, sans-serif;
