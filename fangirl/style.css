@@ -289,7 +289,7 @@ hr {
     }
 
     .hidden {
-      display: none;
+      display: block;
     }
 
     header h1 {
