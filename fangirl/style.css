@@ -226,17 +226,16 @@ hr {
 	  height: auto;
     padding: .5em;
 }
-<<<<<<< HEAD
+
 /***************ENTERING THE MEDIA QUERY ZONE!!!!!!!!!!!!!!!!!!!!!*********/
 /***************ENTERING THE MEDIA QUERY ZONE!!!!!!!!!!!!!!!!!!!!!*********/
 @media screen and (min-width: 400px) {
   /*Allison M changed this from 800px */
-=======
 
 
-/*@media screen and (min-width: 800px) {
->>>>>>> origin/gh-pages
-        .main{
+
+
+        /*.main{
             width: 75%;
             float: left;
           }
@@ -245,36 +244,36 @@ hr {
           width: 20%;
           float: right;
           padding: 1em;
-        }
+        }*/
 
         h1 {
             width: 80%;
-            margin: 0 auto;
+            /*margin: 0 auto;*/
         }
 
         h2 {
             width: 80%;
-            margin: 0 auto;
+            /*margin: 0 auto;*/
         }
 
         h3 {
             width: 80%;
-            margin: 0 auto;
+            /*margin: 0 auto;*/
         }
 
         .byline-date {
             width: 80%;
-            margin: 0 auto;
+            /*margin: 0 auto;*/
         }
 
         p {
             width: 80%;
-            margin: 0 auto;
-            font: 1em 'Martel', serif;
+            /*margin: 0 auto;*/
+            font: 2em 'Martel', serif;
         }
 
         .byline-date {
-          margin: 0 auto;
+          /*margin: 0 auto;*/
           width: 80%;
           color: #000;
           font: italic 12px 'Martel', serif;
@@ -284,7 +283,7 @@ hr {
         .deck {
           width: 80%;
           color: #000;
-          font: 12px 'Martel', serif;
+          font: 2em 'Martel', serif;
         }
 
         .story-list {
@@ -292,7 +291,7 @@ hr {
           margin: 0 auto;
           width: 80%;
           color: #46085d;
-          font: 16px 'Roboto', Helvetica, sans-serif;
+          font: 2.2em 'Roboto', Helvetica, sans-serif;
         }
 
         .main-photo {
@@ -303,21 +302,21 @@ hr {
             width: 90%;
             margin: 0 auto;
         }
-<<<<<<< HEAD
+
         .image-text {
        position: relative;
        width: 100%; /* for IE 6 */
         }
 
         h2 span {
-          display: flex;
-          margin: 0 auto;
+          /*display: flex;
+          margin: 0 auto;*/
           width: 100%;
         }
 }
-=======
+
 }*/
->>>>>>> origin/gh-pages
+
 
 @media screen and (min-width: 1100px){
 
@@ -337,13 +336,12 @@ hr {
       width: 80%;
       /*margin: 0 auto;*/
   }
-<<<<<<< HEAD
   h2 span {
     display: flex;
     margin: 0 auto;
     width: 80%;
   }
-=======
+
 
   h2 {
       font: 3.5em 'Roboto', Helvetica, sans-serif;
@@ -354,7 +352,7 @@ hr {
     width: 80%;
     /*margin: 0 auto;*/
     }
->>>>>>> origin/gh-pages
+
     p {
         width: 80%;
         /*margin: 0 auto;*/
