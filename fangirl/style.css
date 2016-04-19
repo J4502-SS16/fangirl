@@ -35,7 +35,7 @@ nav a {
   padding: 20px 30px;
 }
 
-.dropbtn:hover .dropbtn:focus {
+.dropbtn:hover  {
   background-color: #C0C0C0;
 }
 
@@ -49,7 +49,7 @@ nav a {
   padding: 20px 30px;
 }
 
-.dropbtn1:hover .dropbtn:focus {
+.dropbtn1:hover {
   background-color: #C0C0C0;
 }
 
@@ -63,7 +63,7 @@ nav a {
   padding: 20px 30px;
 }
 
-.dropbtn2:hover .dropbtn:focus {
+.dropbtn2:hover {
   background-color: #C0C0C0;
 }
 
