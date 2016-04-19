@@ -37,7 +37,7 @@ nav a {
   padding: 20px 30px;
 }
 
-.dropbtn:hover, .dropbtn:focus {
+.dropbtn:hover {
   background-color: #C0C0C0;
 }
 
@@ -60,6 +60,7 @@ nav a {
 
 .dropdown a:hover {background-color: #dcddde}
 
+.show {display:block;}
 
 header {
     display: flex;
