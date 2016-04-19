@@ -343,6 +343,7 @@ hr {
         order: 2;
     }
     .list-photo {
-      width: 50%
+      width: 80%;
+      margin: 0 auto;
     }
   }
