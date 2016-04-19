@@ -1,3 +1,9 @@
+/*img {
+  max-width: 100%;
+  height: auto;
+  padding-bottom: 5px;
+}*/
+
 a {
   color: #46085d;
 }
@@ -20,6 +26,40 @@ nav a {
     padding: 20px 30px;
 }
 
+.dropbtn {
+  background-color: #dcddde;
+  color: #46085d;
+  display: block;
+  width: auto;
+  font-family: Roboto, Helvetica, Arial;
+  text-decoration: none;
+  padding: 20px 30px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #C0C0C0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    font-family: Roboto, Helvetica, Arial;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
 
 header {
     display: flex;
@@ -57,12 +97,6 @@ nav ul {
   margin-bottom: 15px;
 }
 
-.logo {
-  max-width: 100%;
-  height: auto;
-  padding-bottom: 5px;
-}
-
 p {
   color: #000;
   font: 12px 'Martel', serif;
@@ -95,14 +129,6 @@ h2 span {
    font: 16px/25px 'Roboto', Helvetica, sans-serif;
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
-}
-
-.story-list {
-  display: flex;
-  margin: 0 auto;
-  width: 100%;
-  color: #46085d;
-  font: 16px 'Roboto', Helvetica, sans-serif;
 }
 
 h3 {
@@ -141,18 +167,13 @@ h4 {
 
 .byline-date {
   margin: 0 auto;
-  width: 100%;
-  color: #000;
-  font: italic 12px 'Martel', serif;
-  margin-top: .5em;
-}
-.story-byline {
-  margin: 0 auto;
   width: 80%;
   color: #000;
   font: italic 12px 'Martel', serif;
   margin-top: .5em;
 }
+
+
 
 hr {
  display: block;
@@ -175,16 +196,13 @@ hr {
 }
 
 
-.list-photo {
-  display: flex;
-  margin: 0 auto;
-  width: 55%
-}
 .main-photo {
   display: flex;
   width: 80%;
   margin: 0 auto;
   padding: .5em;
+
+
 }
 
 .sidebar{
@@ -220,17 +238,10 @@ hr {
             width: 80%;
             margin: 0 auto;
         }
-
         .byline-date {
-            width: auto;
-            margin: 0 auto;
-        }
-
-        .story-byline {
             width: 80%;
             margin: 0 auto;
         }
-
         p {
             width: 80%;
             margin: 0 auto;
@@ -240,7 +251,7 @@ hr {
             margin: 0 auto;
         }
         .sub-photo {
-            width: 75%;
+            width: 90%;
             margin: 0 auto;
         }
 }
@@ -249,12 +260,10 @@ hr {
 
   .main{
     width: 65%;
-    float: left;
   }
 
 .sidebar{
   width: 20%;
-  float: right;
 }
   h1 {
       font: 3.5em 'Roboto', Helvetica, sans-serif;
