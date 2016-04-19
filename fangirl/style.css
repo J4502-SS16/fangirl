@@ -141,7 +141,7 @@ h1 {
   /*display: flex;
   margin: 0 auto;*/
   color: #46085d;
-  font: 3.5em 'Roboto', Helvetica, sans-serif;
+  font: 4em 'Roboto', Helvetica, sans-serif;
   padding-bottom: .2em;
   width: 80%
 }
@@ -168,7 +168,7 @@ h3 {
 
   width: 80%;
   color: #46085d;
-  font: 1.9em 'Roboto', Helvetica, sans-serif;
+  font: 2.5em 'Roboto', Helvetica, sans-serif;
 
 }
 
@@ -200,7 +200,7 @@ h4 {
   margin: 0 auto;
   width: 100%;
   color: #000;
-  font: italic 1em 'Martel', serif;
+  font: italic 2.5 'Martel', serif;
   margin-top: .5em;
 }
 
