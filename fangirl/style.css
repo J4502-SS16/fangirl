@@ -1,8 +1,8 @@
-.logo {
+/*img {
   max-width: 100%;
   height: auto;
   padding-bottom: 5px;
-}
+}*/
 
 a {
   color: #46085d;
@@ -125,13 +125,12 @@ h2 {
 h2 span {
   display: flex;
   margin: 0 auto;
-  width: 87.5%;
+  width: 80%;
    color: #fff;
    font: 16px/25px 'Roboto', Helvetica, sans-serif;
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
 }
-
 
 h3 {
   display: flex;
@@ -175,6 +174,8 @@ h4 {
   margin-top: .5em;
 }
 
+
+
 hr {
  display: block;
  margin-top: 0;
@@ -195,6 +196,7 @@ hr {
   color: #dcddde;
 }
 
+<<<<<<< HEAD
 .list-photo {
   display: flex;
   margin: 0 auto;
@@ -208,12 +210,16 @@ hr {
   color: #46085d;
   font: 16px 'Roboto', Helvetica, sans-serif;
 }
+=======
+>>>>>>> origin/gh-pages
 
 .main-photo {
   display: flex;
   width: 80%;
   margin: 0 auto;
   padding: .5em;
+
+
 }
 
 .sidebar{
@@ -225,13 +231,6 @@ hr {
      margin: 0 auto;
 	  height: auto;
     padding: .5em;
-}
-.story-byline {
-  margin: 0 auto;
-  width: 80%;
-  color: #000;
-  font: italic 12px 'Martel', serif;
-  margin-top: .5em;
 }
 
 
@@ -256,11 +255,19 @@ hr {
             width: 80%;
             margin: 0 auto;
         }
+<<<<<<< HEAD
 
+=======
+        .byline-date {
+            width: 80%;
+            margin: 0 auto;
+        }
+>>>>>>> origin/gh-pages
         p {
             width: 80%;
             margin: 0 auto;
         }
+<<<<<<< HEAD
 
         .byline-date {
           margin: 0 auto;
@@ -284,20 +291,15 @@ hr {
           font: 16px 'Roboto', Helvetica, sans-serif;
         }
 
+=======
+>>>>>>> origin/gh-pages
         .main-photo {
             width: 80%;
             margin: 0 auto;
         }
-
         .sub-photo {
             width: 90%;
             margin: 0 auto;
-        }
-
-        .list-photo {
-          display: flex;
-          margin: 0 auto;
-          width: 100%
         }
 }
 
@@ -315,40 +317,9 @@ hr {
       width: 80%;
       margin: 0 auto;
   }
-  h2 span {
-    display: flex;
-    margin: 0 auto;
-    width: 100%;
-     color: #fff;
-     font: 16px/25px 'Roboto', Helvetica, sans-serif;
-     background: rgb(0, 0, 0); /* fallback color */
-     background: rgba(0, 0, 0, 0.7);
-  }
     p {
         width: 60%;
         margin: 0 auto;
-    }
-
-    .byline-date {
-      margin: 0 auto;
-      width: 60%;
-      color: #000;
-      font: italic 12px 'Martel', serif;
-      margin-top: .5em;
-    }
-
-    .story-list {
-      display: flex;
-      margin: 0 auto;
-      width: 60%;
-      color: #46085d;
-      font: 16px 'Roboto', Helvetica, sans-serif;
-    }
-
-    .list-photo {
-      display: flex;
-      margin: 0 auto;
-      width: 100%
     }
 
     nav ul {
@@ -364,7 +335,7 @@ hr {
     }
 
     .hidden {
-      display:block;
+      display: block;
     }
 
     header h1 {
@@ -373,11 +344,6 @@ hr {
 
     nav {
         order: 2;
-    }
-    .list-photo {
-      display: flex;
-      margin: 0 auto;
-      width: 75%
     }
 
 }
