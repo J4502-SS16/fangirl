@@ -383,6 +383,14 @@ hr {
       display: block;
     }
 
+    .hidden1 {
+      display: block;
+    }
+
+    .hidden2 {
+      display: block;
+    }
+
     header h1 {
         order: 1;
     }
