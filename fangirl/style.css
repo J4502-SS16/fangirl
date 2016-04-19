@@ -78,7 +78,7 @@ nav ul {
 }
 
 .image-text {
-   position: relative;
+   /*position: relative;*/
    width: 100%; /* for IE 6 */
 }
 
@@ -104,8 +104,8 @@ p {
 }
 
 h1 {
-  display: flex;
-  margin: 0 auto;
+  /*display: flex;
+  margin: 0 auto;*/
   color: #46085d;
   font: 2.8em 'Roboto', Helvetica, sans-serif;
   padding-bottom: .2em;
@@ -121,9 +121,9 @@ h1 {
 }*/
 
 h2 span {
-  display: flex;
-  margin: 0 auto;
-  width: 80%;
+  /*display: flex;
+  margin: 0 auto;*/
+  width: 100%;
    color: #fff;
    font: 16px/25px 'Roboto', Helvetica, sans-serif;
    background: rgb(0, 0, 0); /* fallback color */
@@ -200,8 +200,8 @@ hr {
 }
 
 .story-list {
-  display: flex;
-  margin: 0 auto;
+  /*display: flex;
+  margin: 0 auto;*/
   width: 100%;
   color: #46085d;
   font: 16px 'Roboto', Helvetica, sans-serif;
@@ -313,7 +313,7 @@ hr {
   h1 {
       font: 3.5em 'Roboto', Helvetica, sans-serif;
       width: 80%;
-      margin: 0 auto;
+      /*margin: 0 auto;*/
   }
 
   h2 {
