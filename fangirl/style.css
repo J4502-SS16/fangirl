@@ -154,14 +154,14 @@ nav ul {
 
 .deck {
   color: #000;
-  font: 12px 'Martel', serif;
+  font: 1em 'Martel', serif;
   margin-top: 0;
   margin-bottom: 15px;
 }
 
 .row1 {
   color: #000;
-  font: 12px 'Martel', serif;
+  font: 1em 'Martel', serif;
   margin-top: 0;
   margin-bottom: 15px;
 }
@@ -271,7 +271,8 @@ hr {
 .list-photo {
   /*display: flex;
   margin: 0 auto;*/
-  width: 100%
+  width: 100%;
+  display: block;
 }
 
 .story-list {
