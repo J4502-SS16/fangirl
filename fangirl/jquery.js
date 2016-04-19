@@ -35,8 +35,6 @@ window.onclick = function(event) {
   }
 }
 
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
 function myFunction() {
     document.getElementById("myDropdown1").classList.toggle("show");
 }
@@ -56,8 +54,6 @@ window.onclick = function(event) {
   }
 }
 
-/* When the user clicks on the button,
-toggle between hiding and showing the dropdown content */
 function myFunction() {
     document.getElementById("myDropdown2").classList.toggle("show");
 }
