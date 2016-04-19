@@ -8,9 +8,27 @@ a {
   color: #46085d;
 }
 
+nav {
+  font-family: Roboto, Helvetica, Arial;
+  text-decoration: none;
+}
+
+nav ul li {
+    display: block;
+    /*border-top: 1px #46085d solid;*/
+}
+
+nav a {
+    color: #46085d;
+    display: block;
+    width: auto;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
 .dropbtn {
     background-color: #4CAF50;
-    color: white;
+    color: #46085d;
     padding: 16px;
     font-size: 16px;
     border: none;
