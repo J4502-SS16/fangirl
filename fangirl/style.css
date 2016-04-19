@@ -1,8 +1,8 @@
-/*img {
+.logo {
   max-width: 100%;
   height: auto;
   padding-bottom: 5px;
-}*/
+}
 
 a {
   color: #46085d;
@@ -132,10 +132,7 @@ h2 span {
    background: rgba(0, 0, 0, 0.7);
 }
 
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/gh-pages
 h3 {
   display: flex;
   margin: 0 auto;
@@ -201,7 +198,7 @@ hr {
 }
 
 
-<<<<<<< HEAD
+
 .list-photo {
   display: flex;
   margin: 0 auto;
@@ -216,15 +213,11 @@ hr {
   font: 16px 'Roboto', Helvetica, sans-serif;
 }
 
-=======
->>>>>>> origin/gh-pages
 .main-photo {
   display: flex;
   width: 80%;
   margin: 0 auto;
   padding: .5em;
-
-
 }
 
 .sidebar{
@@ -330,7 +323,7 @@ hr {
         width: 60%;
         margin: 0 auto;
     }
-    
+
     .byline-date {
       margin: 0 auto;
       width: 60%;
@@ -350,7 +343,7 @@ hr {
     .list-photo {
       display: flex;
       margin: 0 auto;
-      width: 80%
+      width: 100%
     }
 
     nav ul {
@@ -379,7 +372,7 @@ hr {
     .list-photo {
       display: flex;
       margin: 0 auto;
-      width: 55%
+      width: 75%
     }
 
 }
