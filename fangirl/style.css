@@ -232,11 +232,14 @@ hr {
 
 @media screen and (min-width: 800px) {
         .main{
-            width: 65%;
+            width: 75%;
+            float: left;
           }
 
         .sidebar{
           width: 20%;
+          float: right;
+          padding: 1em;
         }
 
         h1 {
@@ -300,7 +303,7 @@ hr {
 
   .main{
     width: 65%;
-    float: left; 
+    float: left;
   }
 
 .sidebar{
