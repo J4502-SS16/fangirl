@@ -28,7 +28,7 @@ nav a {
 
 .dropbtn {
   background-color: #dcddde;
-  font-size: 12px;
+  font-size: 14px;
   color: #46085d;
   display: block;
   width: auto;
@@ -43,7 +43,7 @@ nav a {
 
 .dropdown-content {
     display: none;
-    font-size: 10px; 
+    font-size: 12px;
     position: absolute;
     background-color: #dcddde;
     min-width: 160px;
