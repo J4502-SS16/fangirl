@@ -112,13 +112,13 @@ h1 {
   width: 80%
 }
 
-h2 {
+/*h2 {
   display: flex;
    margin: 0 auto;
    top: 30%;
    left: 0;
    width: 80%;
-}
+}*/
 
 h2 span {
   display: flex;
@@ -305,15 +305,21 @@ hr {
     }
 
   .sidebar{
-    width: 30%;
+    width: 32%;
     float: right;
-    padding: 1em;
+    padding-right: 2em;
   }
 
   h1 {
       font: 3.5em 'Roboto', Helvetica, sans-serif;
       width: 80%;
       margin: 0 auto;
+  }
+
+  h2 {
+      font: 3.5em 'Roboto', Helvetica, sans-serif;
+      width: 80%;
+      /*margin: 0 auto;*/
   }
   h3 {
     width: 80%;
