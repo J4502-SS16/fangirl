@@ -39,6 +39,34 @@ nav a {
   background-color: #C0C0C0;
 }
 
+.dropbtn1 {
+  font-size: 16px;
+  color: #46085d;
+  display: block;
+  width: auto;
+  font-family: Roboto, Helvetica, Arial;
+  text-decoration: none;
+  padding: 20px 30px;
+}
+
+.dropbtn1:hover .dropbtn:focus {
+  background-color: #C0C0C0;
+}
+
+.dropbtn2 {
+  font-size: 16px;
+  color: #46085d;
+  display: block;
+  width: auto;
+  font-family: Roboto, Helvetica, Arial;
+  text-decoration: none;
+  padding: 20px 30px;
+}
+
+.dropbtn2:hover .dropbtn:focus {
+  background-color: #C0C0C0;
+}
+
 .dropdown-content {
     display: none;
     font-size: 14px;
@@ -92,7 +120,15 @@ nav a {
 
 .dropdown a:hover {background-color: #dcddde}
 
+.dropdown1 a:hover {background-color: #dcddde}
+
+.dropdown2 a:hover {background-color: #dcddde}
+
 .show {display:block;}
+
+.show1 {display:block;}
+
+.show1 {display:block;}
 
 header {
     display: flex;
