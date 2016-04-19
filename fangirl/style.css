@@ -90,20 +90,13 @@ h2 {
 h2 span {
   display: flex;
   margin: 0 auto;
-  width: 80%;
+  width: 87.5%;
    color: #fff;
    font: 16px/25px 'Roboto', Helvetica, sans-serif;
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
 }
 
-.story-list {
-  display: flex;
-  margin: 0 auto;
-  width: 100%;
-  color: #46085d;
-  font: 16px 'Roboto', Helvetica, sans-serif;
-}
 
 h3 {
   display: flex;
@@ -178,8 +171,17 @@ hr {
 .list-photo {
   display: flex;
   margin: 0 auto;
-  width: 55%
+  width: 70%
 }
+
+.story-list {
+  display: flex;
+  margin: 0 auto;
+  width: 100%;
+  color: #46085d;
+  font: 16px 'Roboto', Helvetica, sans-serif;
+}
+
 .main-photo {
   display: flex;
   width: 80%;
@@ -235,13 +237,38 @@ hr {
             width: 80%;
             margin: 0 auto;
         }
+
+
+        .byline-date {
+          margin: 0 auto;
+          width: 80%;
+          color: #000;
+          font: italic 12px 'Martel', serif;
+          margin-top: .5em;
+        }
+
+        .story-list {
+          display: flex;
+          margin: 0 auto;
+          width: 80%;
+          color: #46085d;
+          font: 16px 'Roboto', Helvetica, sans-serif;
+        }
+
         .main-photo {
             width: 80%;
             margin: 0 auto;
         }
+
         .sub-photo {
             width: 75%;
             margin: 0 auto;
+        }
+
+        .list-photo {
+          display: flex;
+          margin: 0 auto;
+          width: 100%
         }
 }
 
@@ -261,9 +288,40 @@ hr {
       width: 80%;
       margin: 0 auto;
   }
+  h2 span {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+     color: #fff;
+     font: 16px/25px 'Roboto', Helvetica, sans-serif;
+     background: rgb(0, 0, 0); /* fallback color */
+     background: rgba(0, 0, 0, 0.7);
+  }
     p {
         width: 60%;
         margin: 0 auto;
+    }
+    
+    .byline-date {
+      margin: 0 auto;
+      width: 60%;
+      color: #000;
+      font: italic 12px 'Martel', serif;
+      margin-top: .5em;
+    }
+
+    .story-list {
+      display: flex;
+      margin: 0 auto;
+      width: 60%;
+      color: #46085d;
+      font: 16px 'Roboto', Helvetica, sans-serif;
+    }
+
+    .list-photo {
+      display: flex;
+      margin: 0 auto;
+      width: 80%
     }
 
     nav ul {
@@ -288,6 +346,11 @@ hr {
 
     nav {
         order: 2;
+    }
+    .list-photo {
+      display: flex;
+      margin: 0 auto;
+      width: 55%
     }
 
 }
