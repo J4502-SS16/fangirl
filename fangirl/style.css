@@ -159,7 +159,7 @@ h2 span {
   margin: 0 auto;*/
   width: 100%;
    color: #fff;
-   font: 16px/25px 'Roboto', Helvetica, sans-serif;
+   font: 2em 'Roboto', Helvetica, sans-serif;
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
 }
@@ -196,6 +196,13 @@ h4 {
   padding-bottom: 5px;
 }
 
+.story-byline {
+  margin: 0 auto;
+  width: 100%;
+  color: #000;
+  font: italic 12px 'Martel', serif;
+  margin-top: .5em;
+}
 
 .byline-date {
   margin: 0 auto;
@@ -285,6 +292,7 @@ hr {
       /*margin: 0 auto;*/
   }
   h2 span {
+    font: 2.5em
     display: flex;
     margin: 0 auto;
     width: 80%;
