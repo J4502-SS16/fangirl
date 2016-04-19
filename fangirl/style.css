@@ -364,7 +364,7 @@ hr {
     }
 
     .hidden {
-      display:block;
+      display:none;
     }
 
     header h1 {
