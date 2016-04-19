@@ -26,7 +26,7 @@ nav a {
 }
 
 .dropbtn {
-  font-size: 14px;
+  font-size: 16px;
   color: #46085d;
   display: block;
   width: auto;
@@ -41,7 +41,7 @@ nav a {
 
 .dropdown-content {
     display: none;
-    font-size: 12px;
+    font-size: 14px;
     position: absolute;
     background-color: #dcddde;
     min-width: 160px;
@@ -108,17 +108,17 @@ h1 {
   margin: 0 auto;
   color: #46085d;
   font: 2.8em 'Roboto', Helvetica, sans-serif;
-  padding-bottom: 10px;
+  padding-bottom: .2em;
   width: 80%
 }
 
-h2 {
+/*h2 {
   display: flex;
    margin: 0 auto;
    top: 30%;
    left: 0;
    width: 80%;
-}
+}*/
 
 h2 span {
   display: flex;
@@ -131,8 +131,7 @@ h2 span {
 }
 
 h3 {
-  display: flex;
-  margin: 0 auto;
+
   width: 80%;
   color: #46085d;
   font: 16px 'Roboto', Helvetica, sans-serif;
@@ -195,8 +194,8 @@ hr {
 }
 
 .list-photo {
-  display: flex;
-  margin: 0 auto;
+  /*display: flex;
+  margin: 0 auto;*/
   width: 100%
 }
 
@@ -227,10 +226,16 @@ hr {
 	  height: auto;
     padding: .5em;
 }
+<<<<<<< HEAD
 /***************ENTERING THE MEDIA QUERY ZONE!!!!!!!!!!!!!!!!!!!!!*********/
 /***************ENTERING THE MEDIA QUERY ZONE!!!!!!!!!!!!!!!!!!!!!*********/
 @media screen and (min-width: 400px) {
   /*Allison M changed this from 800px */
+=======
+
+
+/*@media screen and (min-width: 800px) {
+>>>>>>> origin/gh-pages
         .main{
             width: 75%;
             float: left;
@@ -298,6 +303,7 @@ hr {
             width: 90%;
             margin: 0 auto;
         }
+<<<<<<< HEAD
         .image-text {
        position: relative;
        width: 100%; /* for IE 6 */
@@ -309,31 +315,49 @@ hr {
           width: 100%;
         }
 }
+=======
+}*/
+>>>>>>> origin/gh-pages
 
 @media screen and (min-width: 1100px){
 
   .main{
-    width: 65%;
-    float: left;
+      width: 65%;
+      float: left;
+    }
+
+  .sidebar{
+    width: 32%;
+    float: right;
+    padding-right: 2em;
   }
 
-.sidebar{
-  width: 20%;
-  float: right;
-}
   h1 {
       font: 3.5em 'Roboto', Helvetica, sans-serif;
       width: 80%;
       margin: 0 auto;
   }
+<<<<<<< HEAD
   h2 span {
     display: flex;
     margin: 0 auto;
     width: 80%;
   }
+=======
+
+  h2 {
+      font: 3.5em 'Roboto', Helvetica, sans-serif;
+      width: 80%;
+      /*margin: 0 auto;*/
+  }
+  h3 {
+    width: 80%;
+    /*margin: 0 auto;*/
+    }
+>>>>>>> origin/gh-pages
     p {
-        width: 60%;
-        margin: 0 auto;
+        width: 80%;
+        /*margin: 0 auto;*/
     }
     .image-text {
    position: relative;
@@ -359,6 +383,7 @@ hr {
 
     header h1 {
         order: 1;
+
     }
 
     nav {
@@ -366,6 +391,8 @@ hr {
     }
     .list-photo {
       width: 80%;
-      margin: 0 auto;
+      /*margin: 0 auto;*/
+      /*width: 50%;*/
+
     }
   }
