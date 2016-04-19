@@ -364,7 +364,7 @@ hr {
     }
 
     .hidden {
-      display:list-item;
+      display:block;
     }
 
     header h1 {
