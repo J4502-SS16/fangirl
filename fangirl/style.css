@@ -335,14 +335,14 @@ hr {
   h2 span {
     width: 80%;
     color: #46085d;
-    font: 1em 'Roboto', Helvetica, sans-serif;}
+    font: 2em 'Roboto', Helvetica, sans-serif;}
 
   .story-list {
     /*display: flex;
     margin: 0 auto;*/
     /*width: 100%;*/
     color: #46085d;
-    font: 1em 'Roboto', Helvetica, sans-serif;
+    font: 1.5em 'Roboto', Helvetica, sans-serif;
   }
 
   h2 {
