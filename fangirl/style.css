@@ -182,6 +182,18 @@ h1 {
   width: 80%
 }
 
+
+h2 span {
+  width: 80%;
+  color: #46085d;
+  font: 1em 'Roboto', Helvetica, sans-serif;
+  /*display: flex;
+  margin: 0 auto;*/
+  /*width: 100%;*/
+   /*background: rgb(0, 0, 0); /* fallback color */
+   /*background: rgba(0, 0, 0, 0.7);*/*/
+}
+
 h2 {
   /*display: flex;
    margin: 0 auto;*/
@@ -190,15 +202,6 @@ h2 {
    width: 80%;
 }
 
-h2 span {
-  /*display: flex;
-  margin: 0 auto;*/
-  width: 100%;
-   color: #fff;
-   font: 1em 'Roboto', Helvetica, sans-serif;
-   background: rgb(0, 0, 0); /* fallback color */
-   background: rgba(0, 0, 0, 0.7);
-}
 
 h3 {
   width: 80%;
@@ -280,7 +283,7 @@ hr {
   margin: 0 auto;*/
   /*width: 100%;*/
   color: #46085d;
-  font: 2em 'Roboto', Helvetica, sans-serif;
+  font: 1em 'Roboto', Helvetica, sans-serif;
 }
 
 .main-photo {
@@ -330,11 +333,10 @@ hr {
       /*margin: 0 auto;*/
   }
   h2 span {
-    font-size: 1em;
-    display: flex;
-    margin: 0 auto;
     width: 80%;
-  }
+    color: #46085d;
+    font: 1em 'Roboto', Helvetica, sans-serif;}
+
   .story-list {
     /*display: flex;
     margin: 0 auto;*/
@@ -344,7 +346,7 @@ hr {
   }
 
   h2 {
-      font: 2em 'Roboto', Helvetica, sans-serif;
+      font: 1em 'Roboto', Helvetica, sans-serif;
       width: 80%;
       /*margin: 0 auto;*/
   }
