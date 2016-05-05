@@ -459,4 +459,8 @@ hr {
       margin-top: 1em;
       margin-bottom: .5em;
     }
+
+    #twitter-widget-0 {
+        height: 800px !important;
+    }
   }
