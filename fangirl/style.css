@@ -173,10 +173,6 @@ nav a {
 
 .show {display:block;}
 
-.show1 {display:block;}
-
-.show2 {display:block;}
-
 header {
     display: flex;
     flex-flow: row;
