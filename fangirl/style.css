@@ -271,6 +271,13 @@ h4 {
   padding: 20px 0;
 }
 
+.ad{
+  display: block;
+}
+
+.tall-ad{
+  display: none;
+}
 .recent-story {
   max-width: 100%;
   height: auto;
@@ -458,6 +465,14 @@ hr {
       width: 100%;
       margin-top: 1em;
       margin-bottom: .5em;
+    }
+
+    .ad{
+      display: none;
+    }
+
+    .tall-ad{
+      display: block;
     }
 
     #twitter-widget-0 {
