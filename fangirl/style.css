@@ -72,106 +72,65 @@ nav a {
 		clear:both;
 	}
 
-.dropbtn {
-  font-size: 16px;
-  color: #46085d;
-  display: block;
-  width: auto;
-  font-family: 'Roboto', Helvetica, Arial;
-  text-decoration: none;
-  padding: 20px 30px;
+.onclick-menu1 {
+  position: relative;
+  display: inline-block;
+}
+.onclick-menu1:before {
+  content: "Video Games";
+}
+.onclick-menu1:focus .onclick-menu-content1 {
+  /* content is visible if menu is 'opened' */
+  visibility: visible;
+}
+.onclick-menu-content1 {
+  position: absolute;
+  z-index: 1;
+
+  /* disable visibility by default, delay to enable clicks */
+  visibility: hidden;
+  transition: visibility 0.5s;
 }
 
-.dropbtn:hover  {
-  background-color: #C0C0C0;
+.onclick-menu2 {
+    position: relative;
+    display: inline-block;
 }
-
-.dropbtn1 {
-  font-size: 16px;
-  color: #46085d;
-  display: block;
-  width: auto;
-  font-family: 'Roboto', Helvetica, Arial;
-  text-decoration: none;
-  padding: 20px 30px;
+.onclick-menu2:before {
+    content: "Entertainment";
 }
-
-.dropbtn1:hover {
-  background-color: #C0C0C0;
+.onclick-menu2:focus .onclick-menu-content2 {
+    /* content is visible if menu is 'opened' */
+    visibility: visible;
 }
-
-.dropbtn2 {
-  font-size: 16px;
-  color: #46085d;
-  display: block;
-  width: auto;
-  font-family: 'Roboto', Helvetica, Arial;
-  text-decoration: none;
-  padding: 20px 30px;
-}
-
-.dropbtn2:hover {
-  background-color: #C0C0C0;
-}
-
-.dropdown-content {
-    display: none;
-    font-size: 14px;
+.onclick-menu-content2 {
     position: absolute;
-    background-color: #dcddde;
-    min-width: 160px;
-    overflow: auto;
+    z-index: 1;
+
+    /* disable visibility by default, delay to enable clicks */
+    visibility: hidden;
+    transition: visibility 0.5s;
 }
 
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    font-family: 'Roboto', Helvetica, Arial;
-    text-decoration: none;
-    display: block;
+.onclick-menu3 {
+  position: relative;
+  display: inline-block;
 }
-
-.dropdown-content1 {
-    display: none;
-    font-size: 14px;
-    position: absolute;
-    background-color: #dcddde;
-    min-width: 160px;
-    overflow: auto;
+.onclick-menu3:before {
+  content: "About";
 }
-
-.dropdown-content1 a {
-    color: black;
-    padding: 12px 16px;
-    font-family: 'Roboto', Helvetica, Arial;
-    text-decoration: none;
-    display: block;
+.onclick-menu3:focus .onclick-menu-content3 {
+  /* content is visible if menu is 'opened' */
+  visibility: visible;
 }
+.onclick-menu-content3 {
+  position: absolute;
+  z-index: 1;
 
-.dropdown-content2  {
-    display: none;
-    font-size: 14px;
-    position: absolute;
-    background-color: #dcddde;
-    min-width: 160px;
-    overflow: auto;
+  /* disable visibility by default, delay to enable clicks */
+  visibility: hidden;
+  transition: visibility 0.5s;
 }
-
-.dropdown-content2 a {
-    color: black;
-    padding: 12px 16px;
-    font-family: 'Roboto', Helvetica, Arial;
-    text-decoration: none;
-    display: block;
-}
-
-.dropdown a:hover {background-color: #dcddde}
-
-.dropdown1 a:hover {background-color: #dcddde}
-
-.dropdown2 a:hover {background-color: #dcddde}
-
-.show {display:block;}
 
 header {
     display: flex;
