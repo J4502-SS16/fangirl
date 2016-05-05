@@ -75,6 +75,13 @@ nav a {
 .onclick-menu1 {
   position: relative;
   display: inline-block;
+  font-family: 'Roboto', Helvetica, Arial;
+  text-decoration: none;
+  color: #46085d;
+  display: block;
+  width: auto;
+  text-decoration: none;
+  padding: 20px 30px;
 }
 .onclick-menu1:before {
   content: "Video Games";
@@ -95,6 +102,13 @@ nav a {
 .onclick-menu2 {
     position: relative;
     display: inline-block;
+    font-family: 'Roboto', Helvetica, Arial;
+    text-decoration: none;
+    color: #46085d;
+    display: block;
+    width: auto;
+    text-decoration: none;
+    padding: 20px 30px;
 }
 .onclick-menu2:before {
     content: "Entertainment";
@@ -115,6 +129,13 @@ nav a {
 .onclick-menu3 {
   position: relative;
   display: inline-block;
+  font-family: 'Roboto', Helvetica, Arial;
+  text-decoration: none;
+  color: #46085d;
+  display: block;
+  width: auto;
+  text-decoration: none;
+  padding: 20px 30px;
 }
 .onclick-menu3:before {
   content: "About";
