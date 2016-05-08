@@ -10,6 +10,7 @@ a {
 nav {
   font-family: 'Roboto', Helvetica, Arial;
   text-decoration: none;
+  background-color: #dcddde;
 }
 
 nav ul li {
