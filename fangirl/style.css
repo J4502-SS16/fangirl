@@ -25,58 +25,6 @@ nav a {
     text-decoration: none;
     padding: 20px 30px;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
-/*<!-- CSS styles for standard search box -->*/
-	#tfheader{
-		/*background-color: #000;*/
-	}
-	#tfnewsearch{
-		float:right;
-		padding:20px;
-	}
-	.tftextinput{
-		margin: 0;
-		padding: 5px 15px;
-		font-family: Arial, Helvetica, sans-serif;
-		font-size:14px;
-		border:1px solid #dcddde; border-right:0px;
-		border-top-left-radius: 5px 5px;
-		border-bottom-left-radius: 5px 5px;
-	}
-	.tfbutton {
-		margin: 0;
-		padding: 5px 15px;
-		font-family: Arial, Helvetica, sans-serif;
-		font-size:14px;
-		outline: none;
-		cursor: pointer;
-		text-align: center;
-		text-decoration: none;
-		color: #0f0f0f;
-		border: solid 1px #dcddde; border-right:0px;
-		/*background: #46085d;*/
-		background: -webkit-gradient(linear, left top, left bottom, from(#dcddde), to(#dcddde));
-		background: -moz-linear-gradient(top,  #dcddde,  #dcddde);
-		border-top-right-radius: 5px 5px;
-		border-bottom-right-radius: 5px 5px;
-	}
-	.tfbutton:hover {
-		text-decoration: none;
-		background: #46085d;
-		background: -webkit-gradient(linear, left top, left bottom, from(#46085d), to(#46085d));
-		background: -moz-linear-gradient(top,  #46085d,  #46085d);
-	}
-	/* Fixes submit button height problem in Firefox */
-	.tfbutton::-moz-focus-inner {
-	  border: 0;
-	}
-	.tfclear{
-		clear:both;
-	}
-=======
-=======
->>>>>>> parent of 7490bd9... Adding search bar
 
 .dropbtn {
   font-size: 16px;
